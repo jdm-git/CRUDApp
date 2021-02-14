@@ -1,11 +1,11 @@
 
-
+//fake dataService
 const clients = [
     {
         id: 1,
         firstName: 'John',
         lastName: 'Smith',
-        adress: 'Grove Street',
+        email: 'jsmith@gmail.com',
         gender: "M",
         age: 33
     },
@@ -13,7 +13,7 @@ const clients = [
         id: 2,
         firstName: 'Amelia',
         lastName: 'Murphy',
-        adress: 'Grove Street',
+        email: 'Grove Street',
         gender: "W",
         age: 21
     },
@@ -21,7 +21,7 @@ const clients = [
         id: 3,
         firstName: 'Olivia',
         lastName: 'Jones',
-        adress: 'Grove Street',
+        email: 'olivJo@gmail.com',
         gender: "W",
         age: 45
     },
@@ -29,7 +29,7 @@ const clients = [
         id: 4,
         firstName: 'Charlie',
         lastName: `O'Connor`,
-        adress: 'Grove Street',
+        email: 'charlie123@amazon.com',
         gender: "M",
         age: 18
     },
@@ -37,7 +37,7 @@ const clients = [
         id: 5,
         firstName: 'William',
         lastName: 'Jones',
-        adress: 'Grove Street',
+        email: 'wj88@gmail.com',
         gender: "M",
         age: 28
     },
@@ -45,7 +45,7 @@ const clients = [
         id: 6,
         firstName: 'Jessica',
         lastName: 'Taylor',
-        adress: 'Grove Street',
+        email: 'taylorKid@o2.com',
         gender: "W",
         age: 39
     },
@@ -53,7 +53,7 @@ const clients = [
         id: 7,
         firstName: 'Anna',
         lastName: 'Everdeen',
-        adress: 'Grove Street',
+        email: 'aeverdeen@gmail.com',
         gender: "W",
         age: 39
     },
@@ -61,7 +61,7 @@ const clients = [
         id: 8,
         firstName: 'George',
         lastName: 'Hammer',
-        adress: 'Grove Street',
+        email: 'hammer00@gmail.com',
         gender: "M",
         age: 19
     },
@@ -69,7 +69,7 @@ const clients = [
         id: 9,
         firstName: 'Alex',
         lastName: 'Treb',
-        adress: 'Grove Street',
+        email: 'alexis@gmail.com',
         gender: "M",
         age: 29
     },
@@ -77,7 +77,7 @@ const clients = [
         id: 10,
         firstName: 'Laurance',
         lastName: 'Pork',
-        adress: 'Grove Street',
+        email: 'laurpo@gmail.com',
         gender: "W",
         age: 23
     },
@@ -85,7 +85,7 @@ const clients = [
         id: 11,
         firstName: 'Julia',
         lastName: 'Alken',
-        adress: 'Grove Street',
+        email: 'jul1ia@gmail.com',
         gender: "W",
         age: 66
     },
@@ -93,7 +93,7 @@ const clients = [
         id: 12,
         firstName: 'Bob',
         lastName: 'Joy',
-        adress: 'Grove Street',
+        email: 'joyToy@gmail.com',
         gender: "M",
         age: 56
     },
@@ -101,7 +101,7 @@ const clients = [
         id: 13,
         firstName: 'Amber',
         lastName: 'Gold',
-        adress: 'Grove Street',
+        email: 'ambergold@wp.pl',
         gender: "W",
         age: 21
     }
