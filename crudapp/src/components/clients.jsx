@@ -55,6 +55,8 @@ class Clients extends Component {
         const target = event.target;
         const value = target.value;
         const name = target.name;
+
+
         const clients = [...this.state.clients];
         const index = clients.findIndex((c => c.id == client.id));
 
@@ -89,10 +91,10 @@ class Clients extends Component {
                     { clients.map((client) => (
                     <tr key={client.id}>
                         <td><input name="firstName" className="borderless" onChange={(event) => this.handleChange(event, client)} type="text" value={client.firstName}></input></td>
-                        <td><input name="lastName" className="borderless" onChange={this.handleChange} type="text" value={client.lastName}></input></td>
-                        <td><input name="email" className="borderless" onChange={this.handleChange} type="email" value={client.email}></input></td>
-                        <td><input name="gender" className="borderless" onChange={this.handleChange} type="text" value={client.gender}></input></td>
-                        <td><input name="age" className="borderless" onChange={this.handleChange} type="number" value={client.age}></input></td>
+                        <td><input name="lastName" className="borderless" onChange={(event) => this.handleChange(event, client)} type="text" value={client.lastName}></input></td>
+                        <td><input name="email" className="borderless" onChange={(event) => this.handleChange(event, client)} type="email" value={client.email}></input></td>
+                        <td><input name="gender" className="borderless" onChange={(event) => this.handleChange(event, client)} type="text" value={client.gender}></input></td>
+                        <td><input name="age" className="borderless" onChange={(event) => this.handleChange(event, client)} type="number" value={client.age}></input></td>
                         <td>
                             <button onClick={() => this.handleDelete(client)} className="btn btn-danger btn-sm">Delete</button>
                         </td>
