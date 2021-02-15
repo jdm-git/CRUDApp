@@ -2,4 +2,5 @@
 
 To install this app, you need to have `node.js` installed
 
-After that type `npm run` to terminal
+Then enter `npm install` in terminal and
+After that type `npm run` to terminal.
