@@ -8,6 +8,9 @@ const clients = [
         email: 'jsmith@gmail.com',
         gender: "M",
         age: 33
+        //depends on company we can add next list of obj
+        //For example
+        //orders: {id: 1, Name: '...', etc.},
     },
     {
         id: 2,

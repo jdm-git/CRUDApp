@@ -65,6 +65,7 @@ class Clients extends Component {
         
         this.setState({clients});
         //call dataService to sync with database
+        //or add Save btn to apply local changes to prevent connecting with DB every change
      }
 
      
