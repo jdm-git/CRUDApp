@@ -48,6 +48,7 @@ class Clients extends Component {
                     age: e.age.value
                 };
             clients.push(newClient);
+            //call dataService to sync with database
             this.setState({clients, hasError: false});
         }
      }
@@ -63,6 +64,7 @@ class Clients extends Component {
         clients[index][name] = value;
         
         this.setState({clients});
+        //call dataService to sync with database
      }
 
      
